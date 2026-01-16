@@ -97,7 +97,7 @@ PTITLibrary/
 ### Bước 1: Clone dự án
 
 ```bash
-git clone https://github.com/your-repo/PTITLibrary.git
+git clone https://github.com/Son-Uchiha/ptit_Library.git
 cd PTITLibrary
 ```
 
