@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PTIT Library</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div id="app">
+      <!-- Navigation -->
+      <nav class="navbar">
+        <div class="nav-container">
+          <a href="#" class="nav-brand" data-page="home">
+            <span class="brand-icon">📚</span>
+            <span class="brand-text">PTIT Library</span>
+          </a>
+
+          <div class="nav-menu">
+            <a href="#" class="nav-link active" data-page="home">
+              <span class="material-symbols-outlined">home</span>
+              Trang chủ
+            </a>
+            <a href="#" class="nav-link" data-page="books">
+              <span class="material-symbols-outlined">menu_book</span>
+              Sách
+            </a>
+            <a href="#" class="nav-link" data-page="borrow">
+              <span class="material-symbols-outlined">bookmark</span>
+              Mượn sách
+            </a>
+            <a href="#" class="nav-link" data-page="ranking">
+              <span class="material-symbols-outlined">leaderboard</span>
+              Xếp hạng
+            </a>
+          </div>
+
+          <div class="nav-actions">
+            <!-- Notifications -->
+            <div class="notification-dropdown" id="notificationDropdown">
+              <button class="icon-btn" id="notificationBtn" title="Thông báo">
+                <span class="material-symbols-outlined">notifications</span>
+                <span class="badge" id="notiBadge" style="display: none">0</span>
+              </button>
+              <div class="notification-menu" id="notificationMenu">
+                <div class="notification-header">
+                  <h4>Thông báo</h4>
+                  <button class="btn-text" id="markAllReadBtn">Đánh dấu đã đọc</button>
+                </div>
+                <div class="notification-list" id="notificationList">
+                  <div class="notification-empty">
+                    <span class="material-symbols-outlined">notifications_off</span>
+                    <p>Chưa có thông báo</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Messages -->
+            <button class="icon-btn" id="messageBtn" title="Tin nhắn" data-page="messages">
+              <span class="material-symbols-outlined">chat</span>
+              <span class="badge" id="msgBadge" style="display: none">0</span>
+            </button>
+
+            <!-- User Menu (Hidden when not logged in) -->
+            <div class="user-dropdown" id="userDropdown" style="display: none">
+              <button class="user-btn">
+                <img
+                  src="https://ui-avatars.com/api/?name=User&background=ed1c24&color=fff"
+                  alt="Avatar"
+                  class="user-avatar"
+                  id="userAvatar"
+                />
+                <span class="user-name" id="userName">User</span>
+                <span class="material-symbols-outlined">expand_more</span>
+              </button>
+              <div class="dropdown-menu">
+                <a href="#" data-page="profile">
+                  <span class="material-symbols-outlined">person</span>
+                  Tài khoản
+                </a>
+                <a href="#" data-page="friends">
+                  <span class="material-symbols-outlined">group</span>
+                  Bạn bè
+                </a>
+                <a href="admin.html" id="adminNavItem" style="display: none">
+                  <span class="material-symbols-outlined">admin_panel_settings</span>
+                  Quản lý mượn sách
+                </a>
+                <hr />
+                <a href="#" id="logoutBtn" class="danger">
+                  <span class="material-symbols-outlined">logout</span>
+                  Đăng xuất
+                </a>
+              </div>
+            </div>
+
+            <!-- Login Button (Shown when not logged in) -->
+            <a href="#" class="btn btn-primary" id="loginNavBtn" data-page="login">Đăng nhập</a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Main Content -->
+      <main class="main-content" id="mainContent">
+        <!-- Pages will be loaded here -->
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-brand">
+            <span class="brand-icon">📚</span>
+            <span>PTIT Library</span>
+          </div>
+          <p class="footer-text">© 2024 Học viện Công nghệ Bưu chính Viễn thông</p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <!-- Modal Container -->
+    <div class="modal-overlay" id="modalOverlay">
+      <div class="modal" id="modal">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalTitle">Modal</h3>
+          <button class="modal-close" id="modalClose">&times;</button>
+        </div>
+        <div class="modal-body" id="modalBody"></div>
+      </div>
+    </div>
+
+    <!-- SockJS and STOMP for WebSocket -->
+    <script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/stompjs@2.3.3/lib/stomp.min.js"></script>
+
+    <script src="js/api.js"></script>
+    <script src="js/websocket.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

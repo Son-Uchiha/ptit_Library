@@ -1,0 +1,344 @@
+[
+  {
+    "major_id": "CNTT",
+    "Học kỳ 1": [
+      { "name": "Triết học Mác-Lênin", "credits": 3 },
+      { "name": "Tin học cơ sở 1", "credits": 2 },
+      { "name": "Giải tích 1", "credits": 3 },
+      { "name": "Đại số", "credits": 3 }
+    ],
+    "Học kỳ 2": [
+      { "name": "Kinh tế chính trị Mác-Lênin", "credits": 2 },
+      { "name": "Tiếng Anh (Course 1)", "credits": 4 },
+      { "name": "Tin học cơ sở 2", "credits": 2 },
+      { "name": "Giải tích 2", "credits": 3 },
+      { "name": "Vật lý ứng dụng", "credits": 4 },
+      { "name": "Kỹ thuật số", "credits": 2 },
+      { "name": "Pháp luật đại cương", "credits": 2 }
+    ],
+    "Học kỳ 3": [
+      { "name": "Chủ nghĩa xã hội khoa học", "credits": 2 },
+      { "name": "Tiếng Anh (Course 2)", "credits": 4 },
+      { "name": "Ngôn ngữ lập trình C++", "credits": 3 },
+      { "name": "Toán rời rạc 1", "credits": 3 },
+      { "name": "Xử lý tín hiệu số", "credits": 2 },
+      { "name": "Xác suất thống kê", "credits": 3 }
+    ],
+    "Học kỳ 4": [
+      { "name": "Tư tưởng Hồ Chí Minh", "credits": 2 },
+      { "name": "Tiếng Anh (Course 3)", "credits": 4 },
+      { "name": "Kiến trúc máy tính", "credits": 3 },
+      { "name": "Toán rời rạc 2", "credits": 3 },
+      { "name": "Cấu trúc dữ liệu và giải thuật", "credits": 3 },
+      { "name": "Lý thuyết thông tin", "credits": 3 }
+    ],
+    "Học kỳ 5": [
+      { "name": "Lịch sử Đảng cộng sản VN", "credits": 2 },
+      { "name": "Tiếng Anh (Course 3 Plus)", "credits": 2 },
+      { "name": "Hệ điều hành", "credits": 3 },
+      { "name": "Lập trình hướng đối tượng", "credits": 3 },
+      { "name": "Cơ sở dữ liệu", "credits": 3 },
+      { "name": "Mạng máy tính", "credits": 3 },
+      { "name": "Lập trình Python", "credits": 3 }
+    ],
+    "Học kỳ 6": [
+      { "name": "Nhập môn công nghệ phần mềm", "credits": 3 },
+      { "name": "Nhập môn trí tuệ nhân tạo", "credits": 3 },
+      { "name": "An toàn và bảo mật hệ thống thông tin", "credits": 3 },
+      { "name": "Lập trình web", "credits": 3 },
+      { "name": "Cơ sở dữ liệu phân tán", "credits": 3 },
+      { "name": "Thực tập cơ sở", "credits": 3 }
+    ],
+    "Học kỳ 7": [
+      { "name": "QLDA phần mềm", "credits": 3 },
+      { "name": "Phân tích và thiết kế HTTT", "credits": 3 },
+      { "name": "Xử lý ảnh", "credits": 3 },
+      { "name": "Phát triển các hệ thống thông minh", "credits": 3 },
+      { "name": "Học phần tự chọn", "credits": 6 }
+    ],
+    "Học kỳ 8": [
+      { "name": "PTƯD cho thiết bị di động", "credits": 3 },
+      { "name": "Đảm bảo chất lượng phần mềm", "credits": 3 },
+      { "name": "Phát triển yêu cầu phần mềm", "credits": 3 },
+      { "name": "Kiến trúc và thiết kế phần mềm", "credits": 3 },
+      { "name": "Phương pháp luận nghiên cứu khoa học", "credits": 2 },
+      { "name": "Học phần tự chọn", "credits": 3 }
+    ],
+    "Học kỳ 9": [
+      { "name": "Thực tập và tốt nghiệp", "credits": 12 }
+    ]
+  },
+  {
+    "major_id": "CNDPT",
+    "Học kỳ 1": [
+      { "name": "Triết học Mác-Lênin", "credits": 3 },
+      { "name": "Tin học cơ sở 1", "credits": 2 },
+      { "name": "Cơ sở tạo hình", "credits": 3 },
+      { "name": "Toán cao cấp 1", "credits": 2 },
+      { "name": "Nhập môn Đa phương tiện", "credits": 2 }
+    ],
+    "Học kỳ 2": [
+      { "name": "Kinh tế chính trị Mác-Lênin", "credits": 2 },
+      { "name": "Tiếng Anh (Course 1)", "credits": 4 },
+      { "name": "Tin học cơ sở 2", "credits": 2 },
+      { "name": "Toán cao cấp 2", "credits": 2 },
+      { "name": "Kỹ thuật nhiếp ảnh", "credits": 2 },
+      { "name": "Mỹ thuật cơ bản", "credits": 3 },
+      { "name": "Thiết kế đồ họa", "credits": 2 }
+    ],
+    "Học kỳ 3": [
+      { "name": "Chủ nghĩa xã hội khoa học", "credits": 2 },
+      { "name": "Tiếng Anh (Course 2)", "credits": 4 },
+      { "name": "Toán rời rạc 1", "credits": 3 },
+      { "name": "Xác suất thống kê", "credits": 2 },
+      { "name": "Thiết kế hình động 1", "credits": 3 },
+      { "name": "Ngôn ngữ lập trình C++", "credits": 3 },
+      { "name": "Kỹ thuật quay phim", "credits": 3 }
+    ],
+    "Học kỳ 4": [
+      { "name": "Tư tưởng Hồ Chí Minh", "credits": 2 },
+      { "name": "Tiếng Anh (Course 3)", "credits": 4 },
+      { "name": "Pháp luật đại cương", "credits": 2 },
+      { "name": "Thiết kế tương tác đa phương tiện", "credits": 3 },
+      { "name": "Thiết kế đồ họa 3D", "credits": 3 },
+      { "name": "Xử lý và truyền thông ĐPT", "credits": 2 },
+      { "name": "Tổ chức sản xuất sản phẩm ĐPT", "credits": 2 },
+      { "name": "Dựng audio và video phi tuyến", "credits": 3 }
+    ],
+    "Học kỳ 5": [
+      { "name": "Lịch sử Đảng cộng sản VN", "credits": 2 },
+      { "name": "Tiếng Anh (Course 3 Plus)", "credits": 2 },
+      { "name": "Thiết kế Web cơ bản", "credits": 3 },
+      { "name": "Kịch bản đa phương tiện", "credits": 2 },
+      { "name": "Kỹ xảo đa phương tiện", "credits": 2 },
+      { "name": "Bản quyền số", "credits": 2 },
+      { "name": "Nhập môn công nghệ phần mềm", "credits": 3 },
+      { "name": "Học phần tự chọn", "credits": 3 }
+    ],
+    "Học kỳ 6": [
+      { "name": "Cơ sở dữ liệu", "credits": 3 },
+      { "name": "Kiến trúc máy tính và hệ điều hành", "credits": 2 },
+      { "name": "Kỹ thuật đồ họa", "credits": 3 },
+      { "name": "Phương Pháp luận NCKH", "credits": 2 },
+      { "name": "Lập trình âm thanh", "credits": 2 },
+      { "name": "Cấu trúc dữ liệu và giải thuật", "credits": 3 },
+      { "name": "Học phần tự chọn", "credits": 3 }
+    ],
+    "Học kỳ 7": [
+      { "name": "Chuyên đề Phát triển ứng dụng ĐPT", "credits": 1 },
+      { "name": "Lập trình Web", "credits": 3 },
+      { "name": "Lập trình Ứng dụng trên đầu cuối di động", "credits": 3 },
+      { "name": "Lập trình Game cơ bản", "credits": 3 },
+      { "name": "Xử lý ảnh và video", "credits": 3 },
+      { "name": "Học phần tự chọn", "credits": 3 }
+    ],
+    "Học kỳ 8": [
+      { "name": "Kiểm thử và đảm bảo chất lượng phần mềm", "credits": 3 },
+      { "name": "Khai phá dữ liệu ĐPT", "credits": 3 },
+      { "name": "Phát triển ứng dụng thực tại ảo", "credits": 3 },
+      { "name": "Học phần tự chọn", "credits": 3 },
+      { "name": "Thực hành chuyên sâu", "credits": 4 }
+    ],
+    "Học kỳ 9": [
+      { "name": "Thực tập và tốt nghiệp", "credits": 12 }
+    ]
+  },
+  {
+    "major_id": "KHMT",
+    "Học kỳ 1": [
+      { "name": "Triết học Mác-Lênin", "credits": 3 },
+      { "name": "Giải tích 1", "credits": 3 },
+      { "name": "Tin học cơ sở 1", "credits": 2 },
+      { "name": "Đại số", "credits": 3 }
+    ],
+    "Học kỳ 2": [
+      { "name": "Kinh tế chính trị Mác-Lênin", "credits": 2 },
+      { "name": "Tiếng Anh (Course 1)", "credits": 4 },
+      { "name": "Vật lý 1 và thí nghiệm", "credits": 4 },
+      { "name": "Giải tích 2", "credits": 3 },
+      { "name": "Tin học cơ sở 2", "credits": 2 },
+      { "name": "Kỹ thuật số", "credits": 2 },
+      { "name": "Xác suất thống kê", "credits": 2 }
+    ],
+    "Học kỳ 3": [
+      { "name": "Chủ nghĩa xã hội khoa học", "credits": 2 },
+      { "name": "Tiếng Anh (Course 2)", "credits": 4 },
+      { "name": "Vật lý 3 và thí nghiệm", "credits": 4 },
+      { "name": "Toán rời rạc 1", "credits": 3 },
+      { "name": "Ngôn ngữ lập trình C++", "credits": 3 },
+      { "name": "Xử lý tín hiệu số", "credits": 2 }
+    ],
+    "Học kỳ 4": [
+      { "name": "Tư tưởng Hồ Chí Minh", "credits": 2 },
+      { "name": "Tiếng Anh (Course 3)", "credits": 4 },
+      { "name": "Kiến trúc máy tính", "credits": 3 },
+      { "name": "Toán rời rạc 2", "credits": 3 },
+      { "name": "Cấu trúc dữ liệu và giải thuật", "credits": 3 },
+      { "name": "Lý thuyết thông tin", "credits": 3 }
+    ],
+    "Học kỳ 5": [
+      { "name": "Lịch sử Đảng cộng sản VN", "credits": 2 },
+      { "name": "Tiếng Anh (Course 3 Plus)", "credits": 4 },
+      { "name": "Hệ điều hành", "credits": 3 },
+      { "name": "Lập trình hướng đối tượng", "credits": 3 },
+      { "name": "Cơ sở dữ liệu", "credits": 3 },
+      { "name": "Mạng máy tính", "credits": 3 },
+      { "name": "Lập trình Python", "credits": 3 }
+    ],
+    "Học kỳ 6": [
+      { "name": "Nhập môn trí tuệ nhân tạo", "credits": 3 },
+      { "name": "An toàn và bảo mật hệ thống thông tin", "credits": 3 },
+      { "name": "Nhập môn công nghệ phần mềm", "credits": 3 },
+      { "name": "Lập trình web", "credits": 3 },
+      { "name": "Hệ quản trị cơ sở dữ liệu", "credits": 3 },
+      { "name": "Thực tập cơ sở", "credits": 3 }
+    ],
+    "Học kỳ 7": [
+      { "name": "Phương pháp luận nghiên cứu khoa học", "credits": 2 },
+      { "name": "Xử lý ảnh", "credits": 3 },
+      { "name": "Học máy", "credits": 3 },
+      { "name": "Phân tích và thiết kế hệ thống thông tin", "credits": 3 },
+      { "name": "Nhập môn khoa học dữ liệu", "credits": 3 },
+      { "name": "Học phần tự chọn", "credits": 3 }
+    ],
+    "Học kỳ 8": [
+      { "name": "Nhập môn học sâu", "credits": 3 },
+      { "name": "Khai phá dữ liệu lớn", "credits": 3 },
+      { "name": "Học phần tự chọn", "credits": 3 },
+      { "name": "Học phần tự chọn", "credits": 3 },
+      { "name": "Học phần tự chọn", "credits": 3 },
+      { "name": "Học phần tự chọn", "credits": 3 }
+    ],
+    "Học kỳ 9": [
+      { "name": "Thực tập và tốt nghiệp", "credits": 12 }
+    ]
+  },
+  {
+    "major_id": "CNTC",
+    "Học kỳ 1": [
+      { "name": "Triết học Mác-Lênin", "credits": 3 },
+      { "name": "Tin học cơ sở 1", "credits": 2 },
+      { "name": "Nguyên lý kế toán", "credits": 3 },
+      { "name": "Toán cao cấp 1", "credits": 2 },
+      { "name": "Pháp luật đại cương", "credits": 2 }
+    ],
+    "Học kỳ 2": [
+      { "name": "Kinh tế chính trị Mác-Lênin", "credits": 2 },
+      { "name": "Tiếng Anh (Course 1)", "credits": 4 },
+      { "name": "Tin học cơ sở 2", "credits": 2 },
+      { "name": "Toán cao cấp 2", "credits": 2 },
+      { "name": "Kế toán quản trị", "credits": 3 },
+      { "name": "Tài chính tiền tệ", "credits": 3 },
+      { "name": "Cơ sở dữ liệu (Fintech)", "credits": 3 }
+    ],
+    "Học kỳ 3": [
+      { "name": "Chủ nghĩa xã hội khoa học", "credits": 2 },
+      { "name": "Tiếng Anh (Course 2)", "credits": 4 },
+      { "name": "Lý thuyết xác suất và thống kê", "credits": 3 },
+      { "name": "Tài chính doanh nghiệp", "credits": 3 },
+      { "name": "XNK và thanh toán quốc tế", "credits": 3 },
+      { "name": "Lập trình Python (Fintech)", "credits": 2 }
+    ],
+    "Học kỳ 4": [
+      { "name": "Lịch sử Đảng cộng sản Việt Nam", "credits": 2 },
+      { "name": "Tiếng Anh (Course 3)", "credits": 4 },
+      { "name": "Công nghệ tài chính căn bản", "credits": 3 },
+      { "name": "Phân tích nghiệp vụ kinh doanh", "credits": 3 },
+      { "name": "Lập trình web (Fintech)", "credits": 3 },
+      { "name": "Học phần tự chọn", "credits": 3 }
+    ],
+    "Học kỳ 5": [
+      { "name": "Tư tưởng Hồ Chí Minh", "credits": 2 },
+      { "name": "Tiếng Anh (Course 3 Plus)", "credits": 2 },
+      { "name": "Phân tích và thiết kế HTTT quản lý (Fintech)", "credits": 3 },
+      { "name": "Học phần tự chọn", "credits": 3 },
+      { "name": "Đầu tư tài chính", "credits": 3 },
+      { "name": "Phân tích và lập kế hoạch tài chính", "credits": 3 },
+      { "name": "An toàn bảo mật thông tin (Fintech)", "credits": 3 }
+    ],
+    "Học kỳ 6": [
+      { "name": "Nghiệp vụ ngân hàng thương mại", "credits": 3 },
+      { "name": "Kinh tế lượng tài chính", "credits": 3 },
+      { "name": "CN Blockchain và ỨD trong TC", "credits": 3 },
+      { "name": "Tài chính hành vi", "credits": 3 },
+      { "name": "Đề án Công nghệ tài chính", "credits": 3 },
+      { "name": "Học phần tự chọn", "credits": 3 }
+    ],
+    "Học kỳ 7": [
+      { "name": "Trí tuệ nhân tạo trong TC", "credits": 3 },
+      { "name": "Quản trị rủi ro tài chính", "credits": 3 },
+      { "name": "Quản lý và ứng dụng dữ liệu trong TC", "credits": 2 },
+      { "name": "Phân tích dữ liệu tài chính quy mô lớn", "credits": 3 },
+      { "name": "Đổi mới sáng tạo tài chính", "credits": 3 },
+      { "name": "Học phần tự chọn", "credits": 3 }
+    ],
+    "Học kỳ 8": [
+      { "name": "Thực tập và tốt nghiệp", "credits": 10 }
+    ]
+  },
+  {
+    "major_id": "MARKETING",
+    "Học kỳ 1": [
+      { "name": "Triết học Mác-Lênin", "credits": 3 },
+      { "name": "Tâm lý quản lý", "credits": 2 },
+      { "name": "Tin học cơ sở 1", "credits": 2 },
+      { "name": "Toán cao cấp 1", "credits": 2 },
+      { "name": "Pháp luật đại cương", "credits": 2 }
+    ],
+    "Học kỳ 2": [
+      { "name": "Kinh tế chính trị Mác-Lênin", "credits": 2 },
+      { "name": "Tiếng Anh (Course 1)", "credits": 4 },
+      { "name": "Toán cao cấp 2", "credits": 2 },
+      { "name": "Lý thuyết xác suất và thống kê", "credits": 3 },
+      { "name": "Tin học cơ sở 3", "credits": 2 },
+      { "name": "Kinh tế vi mô 1", "credits": 3 }
+    ],
+    "Học kỳ 3": [
+      { "name": "Chủ nghĩa xã hội khoa học", "credits": 2 },
+      { "name": "Tiếng Anh (Course 2)", "credits": 4 },
+      { "name": "Toán kinh tế", "credits": 3 },
+      { "name": "Kinh tế vĩ mô 1", "credits": 3 },
+      { "name": "Marketing căn bản", "credits": 3 },
+      { "name": "Lịch sử các học thuyết kinh tế", "credits": 2 }
+    ],
+    "Học kỳ 4": [
+      { "name": "Tư tưởng Hồ Chí Minh", "credits": 2 },
+      { "name": "Tiếng Anh (Course 3)", "credits": 4 },
+      { "name": "Nguyên lý kế toán", "credits": 3 },
+      { "name": "Quản trị học", "credits": 3 },
+      { "name": "Hành vi khách hàng", "credits": 2 },
+      { "name": "Quản trị Marketing", "credits": 2 },
+      { "name": "Internet và ứng dụng trong kinh doanh", "credits": 3 }
+    ],
+    "Học kỳ 5": [
+      { "name": "Lịch sử Đảng cộng sản VN", "credits": 2 },
+      { "name": "Tiếng Anh (Course 3 Plus)", "credits": 2 },
+      { "name": "Kinh tế lượng", "credits": 3 },
+      { "name": "Các hệ thống thông tin trong DN", "credits": 2 },
+      { "name": "Quản lý dự án", "credits": 2 },
+      { "name": "Marketing dịch vụ", "credits": 2 },
+      { "name": "Thương mại điện tử", "credits": 2 },
+      { "name": "Phát triển và ứng dụng web trong Marketing", "credits": 3 }
+    ],
+    "Học kỳ 6": [
+      { "name": "Phương pháp nghiên cứu Marketing", "credits": 3 },
+      { "name": "Marketing công nghiệp", "credits": 2 },
+      { "name": "Ứng dụng ĐPT trong kinh doanh", "credits": 2 },
+      { "name": "Truyền thông Marketing tích hợp", "credits": 3 },
+      { "name": "Quản trị cơ sở dữ liệu kinh doanh", "credits": 2 },
+      { "name": "E-Marketing", "credits": 2 },
+      { "name": "Học phần tự chọn", "credits": 6 }
+    ],
+    "Học kỳ 7": [
+      { "name": "Phương pháp luận NCKH", "credits": 2 },
+      { "name": "Chiến lược phương tiện truyền thông", "credits": 3 },
+      { "name": "Quan hệ công chúng", "credits": 3 },
+      { "name": "Marketing trực tiếp", "credits": 3 },
+      { "name": "Quản trị quảng cáo", "credits": 3 },
+      { "name": "Đề án: Kế hoạch Internet Marketing", "credits": 2 }
+    ],
+    "Học kỳ 8": [
+      { "name": "Thực tập và tốt nghiệp", "credits": 10 }
+    ]
+  }
+]
